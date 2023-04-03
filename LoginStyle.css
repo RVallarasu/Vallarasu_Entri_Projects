@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif;;
+}
+
+.Input-Box{
+    
+    padding-bottom: 10px;
+   
+}
+#email{
+    
+ text-decoration: underline;
+
+
+}
+#password{  
+    text-decoration: underline;
+}
+#Login:hover{
+    
+    background-color: blueviolet;
+}
+#Reg-Button:hover{
+    background-color: coral;
+}
+a{
+    text-decoration: none;
+    font-size: small;
+}
+a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.Registration-Form{
+    background-color: lightgreen;
+   height: 25vh;
+   width: 20%;
+padding: 30px;
+border: 2px solid;
+border-radius: 10px;
+}
+.Login-Form{
+    background-color:lightblue;
+    height:20vh ;
+    width: 20%;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 10px ;
+}
