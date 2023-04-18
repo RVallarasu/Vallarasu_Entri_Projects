@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.Head{
+    width: 100%;
+    background-color: rgb(145, 67, 67); 
+}
+.navBar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navBar ul li
+{
+  list-style-type: none;
+  display: inline-block;
+ margin: 10px;
+ 
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black ;
+    
+}
+h1{
+    color: antiquewhite;
+}
+
+
+
+
+.Tittle{
+    align-items: center;
+    display: flex;
+    gap:15px;
+    margin-left: 10px;
+}
+
+
+
+.pageList
+{
+   
+ 
+  padding-left: 20px;
+  padding-top: 10px;
+ 
+  
+}
+
+.Page  li {
+    display: inline-block;
+  
+}
+.pageList  a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.774);
+}
+.pageList a:hover{
+   text-decoration: underline;
+}
+.RecipeCard{
+    width: 40%;
+  
+    
+}
+.footer{
+  
+    background-color: rgb(93, 93, 145);
+    padding: 30px;
+    display: flex;
+   gap: 100px;
+}
+.footer  a {
+    text-decoration: none;
+    color: white;
+    
+}
+.footer  a:hover {
+   
+    color: black;
+    
+}
+.footer  li {
+   list-style-type: none;
+    
+}
