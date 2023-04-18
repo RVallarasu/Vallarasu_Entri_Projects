@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.head{
+    background-image: url(./GoGreen.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+   background-size: cover;
+  
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+   
+}
+a:hover{
+    color:goldenrod;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+.navBar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 50px;
+   margin-left: 300px;
+
+
+}
+.PlantCollection{
+
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+   
+}
+.Section1{
+    background-color: rgb(204, 226, 166);
+    padding: 5px;
+}
+
+h6:hover{
+color:blueviolet;
+}
+.ViewMore{
+
+ margin-left: 50%;
+
+}
+.SearchBar{
+    padding-left: 40%;
+    display: flex;
+    gap: 5px;
+}
+
+ #SearchBTn:hover{
+    background-color: burlywood;
+ }
+.Footer{
+    background-color: rgb(59, 59, 71);
+    display: flex;
+    padding-left: 40%;
+    gap: 50px;
+    
+}
+footer ul li {
+    list-style-type: none;
+    color: white;
+  
+}
+footer ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.Back{
+    background-color: rgb(152, 152, 192);
+}
+.BackToTop{
+width: 100%;
+background-color: rgb(139, 139, 146);
+color: white;
+}
+.ViewMore a{
+
+text-decoration: none;
+    }
