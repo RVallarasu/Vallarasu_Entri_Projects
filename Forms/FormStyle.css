@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+  :root{
+    --main-fond:'Poppins';
+    --Main-colour:#144A79;
+    --Primary-color:#CE1A41;
+    --Scondary-color:#FF0305;
+    --Addon-color:#F6E5D1;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: var(--main-fond);
+    background-image: linear-gradient(to right bottom, #051937, #0a2447, #0e3057, #123d68, #144a79);
+  }
+  input,select,button{
+    font-family: var(--main-fond);
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .reg-wrapper{
+    min-height: 100vh;
+    padding: 30px 40px 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .wrapper .Form-holder{
+    width: 50%;
+    padding: 30px 40px 40px;
+  }
+
+  .wrapper{
+    padding: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 10px;
+
+  }
+
+  .Form-holder .main-heading{
+    text-transform: uppercase;
+    color: var(--Main-colour);
+    font-weight: 600;
+  }
+
+  
+  .Form-holder .sub-heading{
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  .Form-holder .sub-heading .sub-highlighted{
+    font-weight: bold;
+   
+  }
+
+  .form-group input{
+    width: 50%;
+  }
+
+  .form-group {
+    display: flex;
+  }
+  .form-group input:nth-child(odd){
+    margin-right: 5px;
+  }
+  .form-control{
+
+    border: none;
+    border-bottom: 2px solid var(--Main-colour);
+    width: 100% ;
+    height: 30px;
+    outline: none ;
+    margin-bottom: 15px;
+  }
+  
+  .form-wrapper .instructons{
+
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+
+
+  .form-wrapper .instructons a{ 
+
+    font-weight: bold;
+  }
+  .form-wrapper .instructons a{
+
+    text-decoration: none;
+    color: var(--Main-colour);
+  }
+
+  .Form-holder button{
+
+    border: none;
+    background-color: var(--Primary-color);
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    color:#F6E5D1;
+    box-shadow: 0px 5px 5px var(--Main-colour);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .Form-holder button:hover{
+
+   
+    background-color: var(--Main-colour);
+   
+  }
+
+  .Form-holder select{
+
+   
+    cursor: pointer;
+   
+  }
+
+  .Form-holder  input::placeholder{
+    color: var(--Main-colour);
+  }
+
+  
+input:is(:focus){
+    border-bottom-color:yellow;
+    color: var(--Main-colour);
+
+}
+
+  
+select:is(:focus){
+    border-bottom-color:yellow;
+    color: var(--Main-colour);
+
+}
